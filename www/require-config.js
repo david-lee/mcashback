@@ -1,7 +1,6 @@
 var require = {
 	baseUrl: "/app",
 	paths: {
-		styles: "styles",
 		text: "../libs/requirejs/plugins/text",
 		i18n: "../libs/requirejs/plugins/i18n",
 		domReady: "../libs/requirejs/plugins/domReady",
@@ -11,15 +10,7 @@ var require = {
 		underscore: "../libs/lodash.compat",
 		backbone: "../libs/backbone-1.1.0",
 		"require-css": "../libs/requirejs/plugins/require-css/css",
-		"jquery.dataTables": "../libs/jquery.dataTables.min",
-		
-		// core: "app/core",
-		// login: "app/login",
-		// category: "app/category",
-		// main: "app/main",
-		// member: "app/member",
-		// order: "app/order",
-		// store: "app/store"
+		"jquery.dataTables": "../libs/jquery.dataTables.min"
 	},
 	
 	map: {
