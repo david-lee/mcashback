@@ -9,7 +9,7 @@ server.get('/', function(req, res) { res.sendfile(__dirname + '/index.html'); })
 server.get('/login', function(req, res) { res.sendfile(__dirname + '/www/app/login/template/login.html'); });
 
 // production REST API
-server.get('/admin', function(req, res) { res.sendfile(__dirname + '/index.html'); });
+server.get('/admin', function(req, res) { res.sendfile(__dirname + '/www/index.html'); });
 
 
 server.listen(8220);
